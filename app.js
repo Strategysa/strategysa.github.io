@@ -230,7 +230,7 @@
         ap.classList.add("sw");
         setTimeout(function(){ ap.src = "img/alarma/pg/c-" + k + ".jpg"; ap.alt = "Alarma personal color " + n.toLowerCase(); ap.classList.remove("sw"); }, 180);
         cn.textContent = n;
-        var href = "https://wa.me/" + WA + "?text=" + encodeURIComponent("Hola Strategysa, quisiera saber el precio de la alarma personal de seguridad (color: " + n.toLowerCase() + ").");
+        var href = "https://wa.me/" + WA + "?text=" + encodeURIComponent("Hola Strategysa, quisiera pedir la alarma personal de seguridad (color: " + n.toLowerCase() + ").");
         was.forEach(function(a){ a.href = href; });
       });
     });
