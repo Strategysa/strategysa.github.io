@@ -869,3 +869,21 @@ html.srch-open{overflow:hidden}
 .al-price b{font-family:var(--display);font-size:40px;font-weight:800;color:#fff;margin-right:4px;line-height:1}
 .al-bb-txt h2 small,.buybox b small{font-size:.45em;font-weight:600;color:var(--soft);letter-spacing:0}
 .det-media .rounded{max-height:none;height:auto;object-fit:contain}
+
+/* ---------- Pie de tarjeta: precio arriba, botón a lo ancho ---------- */
+.pfoot{flex-direction:column;align-items:stretch;gap:12px}
+.pfoot .price{white-space:nowrap}
+.pfoot .price.ask{white-space:normal;font-size:13px;line-height:1.4}
+.pfoot .pbtn{width:100%;justify-content:center;padding:11px 14px;font-size:14px;background:#1f9d55;border-color:#1f9d55;color:#fff}
+.pfoot .pbtn svg{width:17px;height:17px}
+.prod:hover .pbtn,.pfoot .pbtn:hover{background:#25b862!important;border-color:#25b862!important;color:#fff}
+
+/* ---------- Ver todos los productos ---------- */
+.mega-all{display:flex!important;align-items:center;justify-content:center;gap:8px;margin-top:8px;padding:12px!important;border-radius:8px;border:1px solid var(--line);font-weight:600;font-size:14px;color:var(--blue-2)!important;background:rgba(255,255,255,.03)}
+.mega-all:hover{background:var(--blue-soft)!important;color:#fff!important}
+.mega-all svg{width:16px;height:16px}
+.all-cta{display:flex;justify-content:center;margin-top:32px}
+.all-cta .btn svg{width:18px;height:18px}
+a.glink{text-decoration:none;color:var(--blue-2)}
+a.glink:hover{color:#fff}
+@media (min-width:1001px){.mega{left:0;transform:translateY(6px)}.has-mega:hover .mega,.has-mega:focus-within .mega,.has-mega.open .mega{transform:none}}

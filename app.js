@@ -138,7 +138,7 @@
       waL.href = "https://wa.me/" + WA + "?text=" + encodeURIComponent(q ? "Hola Strategysa, estoy buscando: " + inp.value.trim() : "Hola Strategysa, estoy buscando un producto.");
       if (!q) {
         html = '<p class="srch-lab">Búsquedas frecuentes</p><div class="srch-chips">' + POP.map(function(p){ return '<button type="button" data-q="' + p + '">' + p + '</button>'; }).join("") + '</div>';
-        html += '<p class="srch-lab">Nuestras líneas</p>' + [["Kit de entrenamiento","kit-entrenamiento.html"],["Armas letales y no letales","armas.html"],["Gel y gas pimienta","defensa-personal.html"],["Accesorios","accesorios.html"],["Tecnología","tecnologia.html"]].map(function(l){ return '<a class="srch-row lite" role="option" href="' + l[1] + '"><span><b>' + l[0] + '</b></span><i>Ir</i></a>'; }).join("");
+        html += '<p class="srch-lab">Nuestras líneas</p>' + [["Todos los productos","productos.html"],["Kit de entrenamiento","kit-entrenamiento.html"],["Armas letales y no letales","armas.html"],["Gel y gas pimienta","defensa-personal.html"],["Accesorios","accesorios.html"],["Tecnología","tecnologia.html"]].map(function(l){ return '<a class="srch-row lite" role="option" href="' + l[1] + '"><span><b>' + l[0] + '</b></span><i>Ir</i></a>'; }).join("");
       } else {
         var words = q.split(/\s+/), data = idx() || [], res = [];
         data.forEach(function(r){
