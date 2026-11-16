@@ -868,3 +868,4 @@ html.srch-open{overflow:hidden}
 .al-price{margin:22px 0 0;font-size:15px;color:var(--soft)}
 .al-price b{font-family:var(--display);font-size:40px;font-weight:800;color:#fff;margin-right:4px;line-height:1}
 .al-bb-txt h2 small,.buybox b small{font-size:.45em;font-weight:600;color:var(--soft);letter-spacing:0}
+.det-media .rounded{max-height:none;height:auto;object-fit:contain}
